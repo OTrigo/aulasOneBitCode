@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Landing Page - Bootstrap</title>
+</head>
+<body>
+    <div class="container" id="main">
+
+        <div class="container-logo">
+            <img src="./images/logoOneBitDark.png" id="logo">
+        </div>
+
+        <p>1 - Qual o seu nome?</p>
+        <div class="campo-nome">
+            <div class="input-group">
+                <span class="input-group-text">Primeiro Nome</span>
+                <input type="text" class="form-control">
+            </div>
+            <div class="input-group">
+                <span class="input-group-text">Segundo Nome</span>
+                <input type="text" class="form-control">
+            </div>
+        </div>
+        <p>2 - Qual o seu gênero?</p>
+            <p>
+                <input type="radio" id="homem" name="genero">
+                <label class="form-check-label" for="homem">Homem</label>
+            </p>
+            <p>
+                <input type="radio" id="mulher" name="genero">
+                <label class="form-check-label" for="mulher">Mulher</label>
+            </p>
+            <p>
+                <input type="radio" id="outro" name="genero">
+                <label class="form-check-label" for="outro">Outro</label>
+            </p>
+
+        <p>3- Marque o treinamento que você fez:</p>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="astronautaBasico">
+                <label class="form-check-label" for="astronautaBasico">Treinamento básico de astronauta</label>
+            </div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="fisicoBasico">
+                <label class="form-check-label" for="fisicoBasico">Treinamento físico básico</label>
+            </div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="astronautaAvancado">
+                <label class="form-check-label" for="astronautaAvancado">Treinamento avançado de astronauta</label>
+            </div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" role="switch" id="fisicoAvancado">
+                <label class="form-check-label" for="fisicoAvancado">Treinamento físico intenso</label>
+            </div>
+
+        <p>4- Quais são suas qualidades:</p>
+              <div class="input-group qualidades">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="resiliencia">
+                    <label class="form-check-label" for="resiliencia">Resiliência</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="resiliencia">
+                    <label class="form-check-label" for="resiliencia">Proativo</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="resiliencia">
+                    <label class="form-check-label" for="resiliencia">Resistente</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="resiliencia">
+                    <label class="form-check-label" for="resiliencia">Já vi Star Wars todo</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="resiliencia">
+                    <label class="form-check-label" for="resiliencia">Gosto de Steven Universe</label>
+                </div>
+              </div>
+
+              <div class="container-button">
+                    <button class="btn" id="btn-submit">Enviar</button>
+              </div>
+    </div>
+    <footer>
+        <p>Feito por Jorge Lucas - 2022</p>
+    </footer>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

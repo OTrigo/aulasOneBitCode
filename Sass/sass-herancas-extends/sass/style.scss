@@ -1,0 +1,28 @@
+.btn{
+    width: 75px;
+    padding: 25px 0;
+    border-radius: 20px;
+    border: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.yellow-btn{
+    @extend .btn;
+    background-color: yellow;
+}
+
+.purple-btn{
+    @extend .btn;
+    background-color: purple;
+    color: white;
+}
+
+.blue-btn{
+    @extend .btn;
+    background-color: blue;
+    color: white;
+}
+
+//& e o extend nesse caso atuam da mesma forma, porém, o & herda de forma direta
+// já o extend ele pega a herança de alguém

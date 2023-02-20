@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    background-color: grey;
+    flex-direction: column;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(210px, 100%);
+}
+
+.item{
+    display: flex;
+    background-color: white;
+    font-size: 30px;
+    border: 1px solid black;
+}

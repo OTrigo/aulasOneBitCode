@@ -1,0 +1,14 @@
+.classe1 ul {
+  background-color: red;
+}
+.classe1 li {
+  background-color: blue;
+  padding: 10px 5px;
+}
+.classe1 li:hover {
+  background-color: purple;
+  transition: 0.25s;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */

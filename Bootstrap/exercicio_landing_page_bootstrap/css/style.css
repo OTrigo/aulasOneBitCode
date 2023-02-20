@@ -1,0 +1,67 @@
+body{
+    background: url(../images/backgroundLp.png); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin-top: 4%;
+    color: white;
+    background-color: #111111;
+    gap: 4px;
+    padding: 24px;
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.campo-nome{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+#logo{
+    width: 40%;
+}
+
+.qualidades{
+    display: flex;
+    gap: 20px;
+}
+
+.container-button{
+    text-align: center;
+}
+
+#btn-submit{
+    margin-top: 8px;
+    border-color: #D50C41;
+    color: #D50C41;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    padding: 24px;
+}
+
+#btn-submit:hover{
+    color:white;
+    border-color: white;
+}
+
+@media (max-width: 768px) {
+    .container#main{
+        width: 100%;
+    }
+}
